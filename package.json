@@ -2,7 +2,7 @@
   "name": "meteor-apollo-accounts-client",
   "version": "0.0.1",
   "description": "Meteor accounts in GraphQL",
-  "main": "./src/index",
+  "main": "./client",
   "repository": {
     "url": "https://github.com/bigroomstudios/meteor-apollo-accounts-client",
     "type": "git"
