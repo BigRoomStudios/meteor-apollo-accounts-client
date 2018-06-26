@@ -9,12 +9,13 @@
   },
   "scripts": {
     "build": "babel ./src --out-dir ./client",
+    "build-in-node-modules": "babel ./node_modules/meteor-apollo-accounts-client/src --out-dir ./node_modules/meteor-apollo-accounts-client/client",
     "prepublish": "npm run build",
     "test": "npm run lint && jest",
     "watch": "watch npm\\ run\\ build ./src",
     "test-watch": "jest --watch",
     "lint": "standard \"src/**/*.js\"",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build-in-node-modules"
   },
   "keywords": [
     "meteor",
